@@ -1,0 +1,47 @@
+{
+  "name": "nodejs_hackerbay",
+  "version": "1.0.0",
+  "description": "interview project",
+  "main": "server.js",
+  "scripts": {
+    "lint": "standard",
+    "test": "mocha --timeout 15000",
+    "start": "node server.js"
+  },
+  "standard": {
+    "globals": [
+      "describe",
+      "should",
+      "context",
+      "before",
+      "beforeEach",
+      "after",
+      "afterEach",
+      "it",
+      "expect"
+    ]
+  },
+  "keywords": [
+    "interview",
+    "hackerbay"
+  ],
+  "author": "abubakar sambo",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "fast-json-patch": "^2.0.6",
+    "jsonwebtoken": "^8.3.0",
+    "request": "^2.88.0",
+    "sharp": "^0.20.5",
+    "validator": "^10.5.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^2.0.1",
+    "mocha": "^2.4.5",
+    "nodemon": "^1.18.3"
+  }
+}
