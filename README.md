@@ -18,5 +18,6 @@ The tests are exhaustive touching on the fringe cases also.
 The standard library was used for linting, because who doesn't like clean code.
 
 it has been dockerized and here is a link to the docker: https://hub.docker.com/r/abubakarsambo/hackerbay/
+you need to expose port 8080 in the container
 
 Swagger link: https://app.swaggerhub.com/apis/sam57/hackerbay/1.0.0
