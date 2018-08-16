@@ -1,7 +1,7 @@
 # hackerbay_backend
 This is a node.js project as per the requirements of the hackerbay backend task.
 
-To run the application, you simply need to run "npm run start"
+To run the application, you simply need to run "npm run start",
 To run the tests, you simply need to run "npm run test"
 
 The /login endpoint takes an object with a username/password combo and returns a token
