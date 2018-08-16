@@ -4,7 +4,6 @@ let server = require('../server')
 let should = chai.should()
 
 chai.use(chaiHttp)
-// Our parent block
 describe('Logging in', () => {
   describe('/Login', () => {
     it('should return a token, given any username and password', (done) => {
@@ -39,7 +38,7 @@ describe('Logging in', () => {
 
 describe('Patching a json object', () => {
   let token = ''
-  beforeEach((done) => { // Before each test we empty the database
+  beforeEach((done) => {
     let user = {
       username: 'siriusBlack',
       password: 'Azkaban'
@@ -138,7 +137,7 @@ describe('Patching a json object', () => {
 
 describe('Returning a thumbnail from a URL', () => {
   let token = ''
-  beforeEach((done) => { // Before each test we empty the database
+  beforeEach((done) => {
     let user = {
       username: 'siriusBlack',
       password: 'Azkaban'
