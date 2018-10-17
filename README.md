@@ -1,5 +1,4 @@
-# hackerbay_backend
-This is a node.js project as per the requirements of the hackerbay backend task.
+# node.js express
 
 To run the application, you simply need to run "npm run start",
 To run the tests, you simply need to run "npm run test"
@@ -16,8 +15,3 @@ the /thumbnail endpoint takes in a url to an image and returns a base64 encoded 
 The tests are exhaustive touching on the fringe cases also.
 
 The standard library was used for linting, because who doesn't like clean code.
-
-it has been dockerized and here is a link to the docker: https://hub.docker.com/r/abubakarsambo/hackerbay/
-you need to expose port 8080 in the container
-
-Swagger link: https://app.swaggerhub.com/apis/sam57/hackerbay/1.0.0
